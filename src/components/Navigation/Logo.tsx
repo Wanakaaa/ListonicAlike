@@ -1,4 +1,4 @@
-export default function Header() {
+export default function Logo() {
   return (
     <div>Listonic</div>
   )
