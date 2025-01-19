@@ -25,7 +25,10 @@ export default function _MainNav() {
         <div>
         <Logo />
         <Login />
-        <NavBar setSelectedOption={setSelectedOption} /></div>
+        <NavBar 
+            setSelectedOption={setSelectedOption}
+            selectedOption={selectedOption}
+            /></div>
       </div>
       <div className="border-2 border-blue-500 w-5/6">
         {getComponentToRender()}
